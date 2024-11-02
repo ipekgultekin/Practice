@@ -20,6 +20,10 @@ public class User {
         this.userID = userID;
     }
 
+    public User() {
+
+    }
+
     public String getLastName() {
         return lastName;
     }
